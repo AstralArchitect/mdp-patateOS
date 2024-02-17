@@ -31,4 +31,4 @@ for i in range(4):
 mdp = open("/root/mdp", "w")
 mdp.write(character[0] + character[1] + character[2] + character[3])
 mdp.close()
-os.system("sudo mkdir /mdp/ ; sudo git clone https://github.com/AstralArchitect/mdp-patateOS /mdp/ ; sudo mv /mdp/rc.local /etc/rc.local ; sudo rm -r /mdp/app/")
+os.system("sudo mkdir /mdp/ ; sudo git clone https://github.com/AstralArchitect/mdp-patateOS /mdp/ ; sudo mv /mdp/start/rc.local /etc/rc.local ; sudo rm -r /mdp/app/")
