@@ -1,0 +1,10 @@
+#! /bin/sh
+# chkconfig: 345 99 10
+case "$1" in
+  start)
+    sudo python3 /mdp/start/main.py
+    ;;
+  *)
+    ;;
+esac
+exit 0
